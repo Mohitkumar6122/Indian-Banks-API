@@ -8,7 +8,7 @@ from flask import render_template
 
 app = Flask(__name__)
 
-app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://postgres:HacKer001@localhost:5432/indian_banks'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://postgres:password@hostname:portnumber/databasename'
 app.config['SQLALCHEMY_COMMIT_ON_TEARDOWN'] = True
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = True
 

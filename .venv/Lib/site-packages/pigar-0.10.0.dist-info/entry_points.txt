@@ -1,0 +1,3 @@
+[console_scripts]
+pigar = pigar.__main__:main
+

@@ -65,6 +65,6 @@ traitlets==5.0.5
 typing-extensions==3.7.4.3
 urllib3==1.26.5
 watchdog==1.0.2
-Werkzeug==2.0.1
+Werkzeug==2.2.3
 win32-setctime==1.0.3
 yarg==0.1.9
